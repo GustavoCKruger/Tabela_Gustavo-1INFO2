@@ -1,0 +1,13 @@
+table, tr, td, th{
+    border: 1px black solid;
+}
+table{
+    width: 60%;
+    margin: 10px auto 10px;
+
+}
+@media (max-width: 999px) {
+    table{
+        width: 100%;
+    }
+}
